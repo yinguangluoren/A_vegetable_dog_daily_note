@@ -2,6 +2,9 @@
 直接翻译， 即为可遍历的，实现该接口的类通常为集合类或者是抽象的集合类或者集合接口，
 比如java.util.AbstractList
 
+> iterable并不一定只会被集合类所实现，对于有前后关系或者嵌套关系的类也可以实现该类，比如java.sql.SQLException
+
+> 但继承该接口的接口 只有java.util.Collection
 ### 方法
 Iterable 接口有3个方法
 
