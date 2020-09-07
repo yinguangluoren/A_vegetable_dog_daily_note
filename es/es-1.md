@@ -48,3 +48,7 @@ index 就是一个db， 是有分片的，分片 (shards) , 是es 存储数据�
  ### 选择index 还是type
  - 是否需要父子文档？ 如果需要，需要在一个index 建立多个type
  - 文档的映射是否相似？ 不相似，则使用多个index
+ 
+ 
+ ### es7 的更新
+ es7规定了一个index只能有一个type, 且名字只能叫_doc, 虚浮了
